@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "standard-with-typescript",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "commonjs"
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "@typescript-eslint/indent": ["error", 4],
+        "@typescript-eslint/no-unnecessary-type-assertion": "off",
+        "quotes":"off",
+        "@typescript-eslint/quotes": ["error", "single", { "allowTemplateLiterals": true}]
+    }
+}
